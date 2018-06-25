@@ -7,8 +7,8 @@ For this project it will be needed:
 - 2 HDMI type D / USB cables;
 - Computer installed the Arduino IDE;
 - [1 Robotic Arm with 6 servo motors](http://www.arobose.com/shop/kits-robot/45-bras-robotique.html);
-- 3 MyoWare (https://www.sparkfun.com/products/13723);
-- 1 Nextion NX4024T032 (https://nextion.itead.cc/resources/datasheets/nx4024t032_011/);
+- [3 MyoWare](https://www.sparkfun.com/products/13723);
+- [1 Nextion NX4024T032](https://nextion.itead.cc/resources/datasheets/nx4024t032_011/);
 - 2 breadboards;
 - A lot of cables.
 
