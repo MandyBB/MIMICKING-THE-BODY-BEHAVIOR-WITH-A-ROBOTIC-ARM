@@ -3,7 +3,7 @@ This study designs and develops all the useful components of a bionic arm robot.
 
 ## Contents
 - [Materials](#Materials)
-- [Robotic Arm](#Robotic_Arm)
+- [Robotic Arm](#Robotic-Arm)
 - [Sensors](#Sensors)
 
 
