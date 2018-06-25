@@ -6,7 +6,6 @@ This study designs and develops all the useful components of a bionic arm robot.
 - [Robotic Arm](#Robotic-Arm)
 - [Sensors](#Sensors)
 
-
 ## Materials
 For this project it will be needed:
 - 2 Node MCU ESP8266 1.0v;
