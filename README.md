@@ -1,12 +1,12 @@
 # MIMICKING-THE-BODY-BEHAVIOR-WITH-A-ROBOTIC-ARM
 This study designs and develops all the useful components of a bionic arm robot. The core technologies are MyoWare™ Muscle sensors, Nextion display, ESP8266 microcontrollers and a robotic arm with six degrees of freedom. There is also a Wifi communication between subsystems and a man-machine interface will be designed to be able to drive a robotic arm. To do the acquisition of the human arm signals, it will be used electromyography technology and the Nextion display to interact with the robotic arm in real-time. The validity of a virtual simulation will be also studied.
 
-##Contents
+## Contents
 - [Materials](#Materials)
 - [Robotic Arm](#Robotic-Arm)
 - [Sensors](#Sensors)
 
-##Materials
+## Materials
 For this project it will be needed:
 - 2 Node MCU ESP8266 1.0v;
 - 2 HDMI type D / USB cables;
@@ -17,6 +17,6 @@ For this project it will be needed:
 - 2 breadboards;
 - A lot of cables.
 
-##Robotic Arm
+## Robotic Arm
 
-##Sensors
+## Sensors
