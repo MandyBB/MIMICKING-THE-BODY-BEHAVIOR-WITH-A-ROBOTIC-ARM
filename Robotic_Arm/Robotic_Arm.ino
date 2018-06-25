@@ -3,21 +3,24 @@
 void setup() {
       //Servo motor
       SetupServoArm(); 
-      clock_begin = millis();
+      
       //Wifi configuration
       UDPSetup();
+      clock_begin = millis();
 }
 
 void loop() {
-  //loopServoDance();
+  loopServoDance();
   clock_end = millis();   
- 
-  if (clock_end > clock_begin + 1,77) {
-    clock_begin = clock_end;
 
-    UDP_Reception();
-    MoveMyArm();
+  if (count==6){
+    if (clock_end > clock_begin + 1,77) {
+      clock_begin = clock_end;
+       
+      UDP_Reception();
+      MoveMyArm();
+      }
+       
   }
-     
 }
 

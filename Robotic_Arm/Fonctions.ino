@@ -58,11 +58,12 @@ void UDPSetup(){
 }
 
 void UDP_Reception() {
-  //if ( WiFi.status() != WL_CONNECTED )  return;
   int packetSize1 = Udp.parsePacket(); //verify if a packet have been received
   // receive incoming UDP packets
   if ( packetSize1 ) { //if the packet was received then:
     if ( Udp.read(packetBuffer, (2 * NSERVO)) > 0 ) {
+        Serial.print(packetBuffer);
+        Serial.println(" ");
       for (int num = 0; num < NSERVO; num++) {
         SPEEDS[num] = int(packetBuffer[num]);
         TARGET[num] = int(packetBuffer[num + NSERVO]);
@@ -103,7 +104,6 @@ void MoveMyArm(){
 void loopServoDance() {
   while(count<TMAX){
     unsigned long NowTime = millis();
-  //unsigned long DanceTime = millis();
     if (NowTime - PrevTime >= interval) {
       PrevTime = NowTime;
       SERVOS[5].write(map(T[count][5],0,100,0,180));
@@ -112,8 +112,8 @@ void loopServoDance() {
       SERVOS[2].write(map(T[count][2],0,100,10,140));
       SERVOS[1].write(map(T[count][1],0,100,0,180));
       SERVOS[0].write(map(T[count][0],0,100,0,180));
-      Serial.print(count);
-      Serial.printf(" ");
+              Serial.print(count);
+        Serial.printf(" ");
       count++;
       return;
     }

@@ -31,5 +31,9 @@ const IPAddress remote(11,11,11,110);
 extern unsigned long clock_begin;
 extern unsigned long clock_end;
 
+extern unsigned long PrevTime;
+extern const long interval; //intervalo de 50 milisegundos
+extern unsigned int count;
+
 
 #endif
