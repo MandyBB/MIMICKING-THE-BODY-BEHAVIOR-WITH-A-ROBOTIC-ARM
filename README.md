@@ -35,7 +35,7 @@ The controlable pins, are D1 till D6 where:
 - D4 = Elbow;
 - D5 = Showder Lateral;
 - D6 = Showder Rotation.
-And the Ground of the ESP must be connected to the Ground of the Robotic Arm.
-Also is important to settle the external energy alimentation for the Robotic Arm and the ESP must be plugged at the computer by the HDMI type D/USB cable.
+
+And the Ground of the ESP must be connected to the Ground of the Robotic Arm. Also is important to settle the external energy alimentation for the Robotic Arm and the ESP must be plugged at the computer by the HDMI type D/USB cable.
 
 ## Sensors
