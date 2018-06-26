@@ -28,7 +28,7 @@ For the Robotic Arm it is necessary:
 - 7 solid core wire.
 
 ### Pinout
-The controlable pins, are D1 till D6 where:
+The controlable pins in the ESP8266 that must be connected are D1 till D6 where:
 - D1 = Grip;
 - D2 = Pulse Rotation;
 - D3 = FlexionHand;
@@ -37,5 +37,8 @@ The controlable pins, are D1 till D6 where:
 - D6 = Showder Rotation.
 
 And the Ground of the ESP must be connected to the Ground of the Robotic Arm. Also is important to settle the external energy alimentation for the Robotic Arm and the ESP must be plugged at the computer by the HDMI type D/USB cable.
+
+### Working the project
+With all the pins connected right, now is time to transfer the code at the microcontroler. The code for this part is called "Robotic Arm" and you must download all the 3 codes that has at the file with the same name at the "codes" file and put them together at the same project.
 
 ## Sensors
